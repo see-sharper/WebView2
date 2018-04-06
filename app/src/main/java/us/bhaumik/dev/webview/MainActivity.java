@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         WebView webView;
 
         webView = (WebView) findViewById(R.id.webview1);
-        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setJavaScriptEnabled(false);
+        /* comment */
         webView.loadUrl("http://safarnama.bhaumik.us");
     }
 }
